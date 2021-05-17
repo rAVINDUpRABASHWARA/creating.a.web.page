@@ -1,0 +1,180 @@
+/*Header --starts-- */
+
+div.header{
+	display: inline-block;
+	width: 100%;
+	padding: 15px 0px;
+	background-color: white;
+	border:3px solid black;
+	border-radius: 5px;
+}
+.header .logo{
+	float: left;
+}
+.logo{
+	position: absolute;
+	top: 12%;
+	left: 5%;
+}
+.header .Slidingbanner{
+	float: right;
+}
+
+/* Sliding Banners --starts-- */
+
+.header .S1{
+	width: 78%;
+	float: right;
+	display: inline-block;
+	position: relative;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.Slidingbanner{
+	display: inline-block;
+	width: 100%;
+	height: 183px;
+	padding: 5px;
+	margin-right: 10px;
+}
+.Slidingbanner img{
+	width: 100%;
+	height: 183px;
+	border-radius: 10px;
+}
+.cycle-control{
+	position: absolute;
+	top: 45%;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+}
+.cycle-control span{
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	font-size: 50px;
+	text-align: center;
+	line-height: 50px;
+	display: inline-block;
+	position: absolute;
+	margin: 0 3px;
+	/*background-color: #056902;*/ /*Feels like it doesn't fit for that*/
+	color: #fff;
+}
+.cycle-control #next{
+	right: 0;
+	margin-right: 15px;
+}
+
+/* Sliding Banners --ends-- */
+
+/*Header --ends-- */
+
+.hr{
+	border-color: black;
+	background-color: black;
+	height: 1px;
+	border-width: 1px;
+	border-radius: 10px;
+}
+/* Navigation bar --starts-- */
+div.nav{
+	/*background-color: #94F890;*/
+	border-radius: 5px;
+}
+.nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	/*background-color: #94F890;*/
+	overflow: hidden;
+	border: 3px solid #94F890;
+	border-radius: 5px;
+}
+li.left{
+	font-size: 20px;
+	float: left;
+	font-weight: 600;
+}
+li.right{
+	font-size: 20px;
+	float: right;
+	font-weight: 700;
+}
+.nav li a{
+	width: 100px;
+	display: inline-block;
+	color: #056902;
+	margin: 10px;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #94F890;
+	border: 1px solid #94F890;
+	border-radius: 5px;
+}
+div.nav li a:hover{
+	color: #000;
+	background-color: #fff;
+	border:3px solid black;
+}
+
+/* Navigation bar --ends-- */
+
+/* Sign in form --starts-- */
+
+
+/* Sign in form --ends-- */
+
+/*discount ads --starts-- */
+
+.Discount img{
+	margin: 10px 10px;
+	padding: 10px 10px;
+	margin-left: 20px;
+}
+.Discount{
+	border-color: 1px solid black;
+	border-radius: 10px;
+}
+
+/*discount ads --ends-- */
+
+/* Footer --starts-- */
+div.footer{	
+	/*position: absolute;*/
+	left: 10px;
+	top: 70%;
+	display: inline-block;
+	width: 100%;
+	padding-left: 10px;
+	background-color: #94F890;
+	border-radius: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.footer .fleft{
+	width: 33.33%;
+	float: left;
+	height: 200px;
+	border-right: 2px solid black;
+	margin-right: 20px;
+}
+.footer .fmiddle{
+	width: 33.33%;
+	float: left;
+	height: 200px;
+	border-right: 2px solid black;
+	margin-right: 20px;
+}
+.footer .fmiddle .fmiddleleft{
+	float: left;
+}
+.footer .fmiddle .fmiddleright{
+	float: right;
+	margin: 0;
+	margin-right: 100px;
+}
+
+/* Footer --ends-- */

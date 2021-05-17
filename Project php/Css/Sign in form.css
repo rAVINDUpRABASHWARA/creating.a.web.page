@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.signin{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+}
+.signin{
+	top: 50%;
+	width: 100%;
+	padding: 0 20px;
+	/*removed some of the 'Login form.css' file's css attributes*/
+}
+.form{
+	max-width: 550px;
+	margin: 0 auto;
+	background: rgba(148,248,144,0.8);
+	padding: 30px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+.signin .input{
+	border-radius: 10px;
+	height: 25px;
+	border-style: none;
+	outline: none;
+}
+.signin .lable{
+	margin-bottom: 10px;
+}
+.signin .submit,
+.clear{
+	display: inline-block;
+	background-color: green;
+	border-radius: 10px;
+	border: 2px solid green;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: none;
+}
+.signin ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.signin ul li.q2{
+	display: inline-block;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+}
+.signin ul li.q2 a{
+	text-decoration: none;
+}

@@ -1,0 +1,76 @@
+
+/* Login form --starts-- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.Login{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.Login{
+	/*position: absolute; <-- this will dlt the space of the form*/ 
+	top: 50%;
+	/*transform: translateY(-50%); <-- position changes*/ 
+	width: 100%;
+	padding: 0 20px;
+}
+.form{
+	max-width: 550px;
+	margin: 0 auto;
+	background: rgba(148,248,144,0.8);
+	padding: 30px;
+	border-radius: 10px;
+	display: flex;
+	box-shadow: 0 0 10px rgba(0,0,0,0.13);
+	flex-direction: column;
+}
+.Login .input{
+	border-radius: 10px;
+	height: 25px;
+	border-style: none;
+	outline: none;
+}
+.Login .lable{
+	margin-bottom: 10px;
+}
+.Login .submit{
+	display: inline-block;
+	background-color: green;
+	border-radius: 10px;
+	border: 2px solid green;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: none;
+}
+.Login ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.Login ul li{
+	display: inline-block;
+	float: left;
+}
+.Login ul li.q1 a{
+	text-decoration: none;
+}
+
+/*.input,
+.lable{
+	width: 48%;
+}
+
+.input,
+.lable{
+	margin: 10px 0;
+	background:transparent;
+	border: 0;
+	border-bottom: 2px solid #94F890;
+}
+
+/* Login form --ends-- */
